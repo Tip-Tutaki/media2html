@@ -15,7 +15,7 @@ Modern multimodal AI agents need to reason about media files, but LLMs are funda
 Media2HTML eliminates all of this. It extracts structured facts (objects, text, colors, spatial relations, semantic tags) using deterministic algorithms, then compiles them into semantic HTML that LLMs understand natively. **Zero Vision-Language Models in the runtime loop.**
 
 **Key benefits:**
-- **800x token reduction** vs. raw base64 images
+- **(To be dertimined) token reduction** vs. raw base64 images
 - **0 GB VRAM** — all extraction runs on CPU, leaving GPU free for the text LLM
 - **100% deterministic** — same input always produces the same output
 - **Zero hallucination** — no generative model in the pipeline
@@ -23,7 +23,7 @@ Media2HTML eliminates all of this. It extracts structured facts (objects, text, 
 
 ---
 
-## V2 Stack
+## V0.0.1 Stack
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
