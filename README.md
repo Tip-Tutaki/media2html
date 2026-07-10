@@ -1,8 +1,10 @@
 # Media2HTML: A VLM-Free Pure Compiler for Multimodal Agents
 
+Disclaimer: Please understand this is V0.01 and still very experimental. It is the product of a personal theory and nothing more.
+
 A tool that converts images, videos, and audio into structured, cacheable HTML representations optimized for text-based LLM reasoning.
 
-**V2.0.0 — Pure Compiler Architecture**
+**V0.0.1 — Pure Compiler Architecture**
 
 ---
 
@@ -162,16 +164,14 @@ media2html/
 
 | Metric | Value |
 |--------|-------|
-| Token reduction vs. raw base64 | 800x |
-| Extraction latency (minimal) | ~200ms |
-| Extraction latency (rich) | ~700ms |
+| Token reduction vs. raw base64 | to be determined |
+| Extraction latency (minimal) | ~200ms | Estimated
+| Extraction latency (rich) | ~700ms | Estimated
 | GPU VRAM required | 0 GB (all CPU) |
-| Deterministic output | 100% |
-| Hallucination risk | 0% |
-| Cache hit latency | <1ms |
+| Deterministic output | 100% | Estimated
+| Hallucination risk | 0% | Estimated
+| Cache hit latency | <1ms | Estimated
 
 ---
 
-## License
-
-MIT
+## License Creative Commons
