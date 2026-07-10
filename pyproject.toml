@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "media2html"
+version = "2.0.0"
+description = "A VLM-Free Pure Compiler for Multimodal Agents"
+requires-python = ">=3.10"
+dependencies = [
+    "ultralytics",
+    "sahi",
+    "rapidocr-onnxruntime",
+    "transformers",
+    "torch",
+    "torchvision",
+    "Pillow",
+    "opencv-python",
+    "scenedetect[standard]",
+    "ffmpeg-python",
+    "openai-whisper",
+    "pyannote.audio",
+    "diskcache",
+    "numpy",
+    "mcp",
+]
+
+[tool.setuptools.packages.find]
+where = ["media2html"]

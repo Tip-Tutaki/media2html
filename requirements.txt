@@ -1,0 +1,15 @@
+ultralytics
+easyocr
+transformers
+torch
+torchvision
+Pillow
+scenedetect
+ffmpeg-python
+openai-whisper
+pyannote.audio
+diskcache
+numpy
+openai
+mcp
+sahi
